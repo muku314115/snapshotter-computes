@@ -8,10 +8,6 @@ from snapshotter.utils.default_logger import logger
 from snapshotter.utils.models.message_models import SnapshotProcessMessage
 from snapshotter.utils.rpc import RpcHelper
 
-from .redis_keys import uniswap_v2_monitored_pairs
-from .utils.core import get_pair_reserves
-from .utils.models.message_models import EpochBaseSnapshot
-
 
 class DummySnapshotModel(BaseModel):
     dummy: str
